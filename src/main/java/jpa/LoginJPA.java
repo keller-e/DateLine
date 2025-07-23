@@ -5,7 +5,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 import java.util.List;
 
-public class UsuarioJPA {
+public class LoginJPA {
 
     public static Usuario validarUsuario(Usuario u) {
 
