@@ -1,0 +1,4 @@
+LOGIN NO APP JA CRIADO VIA BANCO
+
+user: admin
+pass: 1234
