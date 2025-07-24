@@ -37,7 +37,7 @@
     <Container class="javax.swing.JPanel" name="jPanel3">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="30" green="1f" red="16" type="rgb"/>
+          <Color blue="af" green="c8" red="f0" type="rgb"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="87" green="87" red="14" type="rgb"/>
@@ -71,15 +71,17 @@
                                           <Component id="lblHora" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Component id="lblData" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Component id="jSeparator1" alignment="0" min="-2" pref="327" max="-2" attributes="0"/>
-                                          <Component id="txtHora" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtData" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="txtHora" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="txtData" alignment="0" pref="175" max="32767" attributes="0"/>
+                                          </Group>
                                       </Group>
                                   </Group>
                               </Group>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace min="0" pref="234" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="236" max="32767" attributes="0"/>
               </Group>
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="314" max="-2" attributes="0"/>
@@ -115,7 +117,7 @@
                   <Component id="lblPagamento" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="boxFormaPagamento" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="72" max="32767" attributes="0"/>
+                  <EmptySpace pref="68" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="btnFinalizar2" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                       <Component id="btnCancelar" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
@@ -132,7 +134,7 @@
               <Font name="Dubai" size="32" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="7" green="c6" red="84" type="rgb"/>
+              <Color blue="c" green="6c" red="cc" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Cadastrar novo agendamento"/>
           </Properties>
@@ -140,7 +142,7 @@
         <Component class="javax.swing.JButton" name="btnFinalizar2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="a3" red="28" type="rgb"/>
+              <Color blue="66" green="8c" red="0" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="18" style="1"/>
@@ -149,7 +151,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Cadastrar agendamento"/>
-            <Property name="toolTipText" type="java.lang.String" value="Finaliza o cadastro do novo agendamento"/>
+            <Property name="toolTipText" type="java.lang.String" value="Cadastrar novo agendamento"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Hand Cursor"/>
             </Property>
@@ -164,7 +166,7 @@
               <Font name="Dialog" size="18" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="87" green="87" red="14" type="rgb"/>
+              <Color blue="14" green="2d" red="5a" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Data"/>
           </Properties>
@@ -175,7 +177,7 @@
               <Font name="Dialog" size="18" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="87" green="87" red="14" type="rgb"/>
+              <Color blue="14" green="2d" red="5a" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Hora"/>
           </Properties>
@@ -183,13 +185,13 @@
         <Component class="javax.swing.JComboBox" name="boxProcedimento">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="30" green="1f" red="16" type="rgb"/>
+              <Color blue="af" green="c8" red="f0" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="18" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="26" green="b0" red="84" type="rgb"/>
+              <Color blue="66" green="8c" red="0" type="rgb"/>
             </Property>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="7">
@@ -218,7 +220,7 @@
               <Font name="Dialog" size="18" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="87" green="87" red="14" type="rgb"/>
+              <Color blue="14" green="2d" red="5a" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Procedimento"/>
           </Properties>
@@ -229,7 +231,7 @@
               <Font name="Dialog" size="18" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="87" green="87" red="14" type="rgb"/>
+              <Color blue="14" green="2d" red="5a" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Forma de pagamento"/>
           </Properties>
@@ -237,13 +239,13 @@
         <Component class="javax.swing.JComboBox" name="boxFormaPagamento">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="30" green="1f" red="16" type="rgb"/>
+              <Color blue="af" green="c8" red="f0" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="18" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="26" green="b0" red="84" type="rgb"/>
+              <Color blue="66" green="8c" red="0" type="rgb"/>
             </Property>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="4">
@@ -265,18 +267,23 @@
         </Component>
         <Component class="javax.swing.JSeparator" name="jSeparator1">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="c" green="6c" red="cc" type="rgb"/>
+            </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
+              <Color blue="c" green="6c" red="cc" type="rgb"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JFormattedTextField" name="txtData">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="f0" green="fa" red="ff" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-              <Border info="null"/>
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -300,10 +307,12 @@
         <Component class="javax.swing.JFormattedTextField" name="txtHora">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="f0" green="fa" red="ff" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-              <Border info="null"/>
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -312,7 +321,7 @@
               <Format subtype="1" type="2"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="toolTipText" type="java.lang.String" value="Informe a data | Ex: 01/01/2000"/>
+            <Property name="toolTipText" type="java.lang.String" value="Informe a hora | Ex: hh:mm"/>
             <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
@@ -351,7 +360,7 @@
               <Font name="Tahoma" size="22" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="cc" red="ff" type="rgb"/>
+              <Color blue="66" green="66" red="0" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Nenhum cliente selecionado"/>
           </Properties>
@@ -359,7 +368,7 @@
         <Component class="javax.swing.JButton" name="btnCancelar">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="ff" type="rgb"/>
+              <Color blue="2d" green="1e" red="be" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="18" style="1"/>
@@ -368,7 +377,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Cancelar"/>
-            <Property name="toolTipText" type="java.lang.String" value="Canccela o cadastro"/>
+            <Property name="toolTipText" type="java.lang.String" value="Cancelar cadastro de agendamento"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Hand Cursor"/>
             </Property>

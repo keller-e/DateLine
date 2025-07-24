@@ -36,18 +36,18 @@ public class cadastroAtendimento extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("CADASTRO DE AGENDAMENTO");
 
-        jPanel3.setBackground(new java.awt.Color(22, 31, 48));
+        jPanel3.setBackground(new java.awt.Color(240, 200, 175));
         jPanel3.setForeground(new java.awt.Color(20, 135, 135));
 
         lblTituloInfoAlergia2.setFont(new java.awt.Font("Dubai", 1, 32)); // NOI18N
-        lblTituloInfoAlergia2.setForeground(new java.awt.Color(132, 198, 7));
+        lblTituloInfoAlergia2.setForeground(new java.awt.Color(204, 108, 12));
         lblTituloInfoAlergia2.setText("Cadastrar novo agendamento");
 
-        btnFinalizar2.setBackground(new java.awt.Color(40, 163, 0));
+        btnFinalizar2.setBackground(new java.awt.Color(0, 140, 102));
         btnFinalizar2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnFinalizar2.setForeground(new java.awt.Color(255, 255, 255));
         btnFinalizar2.setText("Cadastrar agendamento");
-        btnFinalizar2.setToolTipText("Finaliza o cadastro do novo agendamento");
+        btnFinalizar2.setToolTipText("Cadastrar novo agendamento");
         btnFinalizar2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnFinalizar2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -56,37 +56,38 @@ public class cadastroAtendimento extends javax.swing.JFrame {
         });
 
         lblData.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblData.setForeground(new java.awt.Color(20, 135, 135));
+        lblData.setForeground(new java.awt.Color(90, 45, 20));
         lblData.setText("Data");
 
         lblHora.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblHora.setForeground(new java.awt.Color(20, 135, 135));
+        lblHora.setForeground(new java.awt.Color(90, 45, 20));
         lblHora.setText("Hora");
 
-        boxProcedimento.setBackground(new java.awt.Color(22, 31, 48));
+        boxProcedimento.setBackground(new java.awt.Color(240, 200, 175));
         boxProcedimento.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        boxProcedimento.setForeground(new java.awt.Color(132, 176, 38));
+        boxProcedimento.setForeground(new java.awt.Color(0, 140, 102));
         boxProcedimento.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecione o procedimento", "Depilação (Laser)", "Depilação com cera", "Manicure", "Pedicure", "Liberação facial", "Massagem corporal" }));
         boxProcedimento.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         lblProcedimento.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblProcedimento.setForeground(new java.awt.Color(20, 135, 135));
+        lblProcedimento.setForeground(new java.awt.Color(90, 45, 20));
         lblProcedimento.setText("Procedimento");
 
         lblPagamento.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblPagamento.setForeground(new java.awt.Color(20, 135, 135));
+        lblPagamento.setForeground(new java.awt.Color(90, 45, 20));
         lblPagamento.setText("Forma de pagamento");
 
-        boxFormaPagamento.setBackground(new java.awt.Color(22, 31, 48));
+        boxFormaPagamento.setBackground(new java.awt.Color(240, 200, 175));
         boxFormaPagamento.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        boxFormaPagamento.setForeground(new java.awt.Color(132, 176, 38));
+        boxFormaPagamento.setForeground(new java.awt.Color(0, 140, 102));
         boxFormaPagamento.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecione a forma de pagamento", "PIX", "Débito", "Crédito" }));
         boxFormaPagamento.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
+        jSeparator1.setBackground(new java.awt.Color(204, 108, 12));
+        jSeparator1.setForeground(new java.awt.Color(204, 108, 12));
 
-        txtData.setBackground(new java.awt.Color(255, 255, 255));
-        txtData.setBorder(null);
+        txtData.setBackground(new java.awt.Color(255, 250, 240));
+        txtData.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtData.setForeground(new java.awt.Color(0, 0, 0));
         txtData.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(java.text.DateFormat.getDateInstance(java.text.DateFormat.SHORT))));
         txtData.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -95,12 +96,12 @@ public class cadastroAtendimento extends javax.swing.JFrame {
         txtData.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         txtData.setSelectionColor(new java.awt.Color(102, 102, 102));
 
-        txtHora.setBackground(new java.awt.Color(255, 255, 255));
-        txtHora.setBorder(null);
+        txtHora.setBackground(new java.awt.Color(255, 250, 240));
+        txtHora.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtHora.setForeground(new java.awt.Color(0, 0, 0));
         txtHora.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(java.text.DateFormat.getTimeInstance(java.text.DateFormat.SHORT))));
         txtHora.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txtHora.setToolTipText("Informe a data | Ex: 01/01/2000");
+        txtHora.setToolTipText("Informe a hora | Ex: hh:mm");
         txtHora.setCaretColor(new java.awt.Color(0, 0, 0));
         txtHora.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         txtHora.setSelectionColor(new java.awt.Color(102, 102, 102));
@@ -118,14 +119,14 @@ public class cadastroAtendimento extends javax.swing.JFrame {
         });
 
         lblClienteSelecionado.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
-        lblClienteSelecionado.setForeground(new java.awt.Color(255, 204, 0));
+        lblClienteSelecionado.setForeground(new java.awt.Color(0, 102, 102));
         lblClienteSelecionado.setText("Nenhum cliente selecionado");
 
-        btnCancelar.setBackground(new java.awt.Color(255, 0, 0));
+        btnCancelar.setBackground(new java.awt.Color(190, 30, 45));
         btnCancelar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnCancelar.setForeground(new java.awt.Color(255, 255, 255));
         btnCancelar.setText("Cancelar");
-        btnCancelar.setToolTipText("Canccela o cadastro");
+        btnCancelar.setToolTipText("Cancelar cadastro de agendamento");
         btnCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -160,9 +161,10 @@ public class cadastroAtendimento extends javax.swing.JFrame {
                                         .addComponent(lblHora)
                                         .addComponent(lblData)
                                         .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 327, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(txtHora)
-                                        .addComponent(txtData, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
-                .addGap(0, 234, Short.MAX_VALUE))
+                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addComponent(txtHora, javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtData, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE))))))))
+                .addGap(0, 236, Short.MAX_VALUE))
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(314, 314, 314)
                 .addComponent(btnSelecionarCliente)
@@ -195,7 +197,7 @@ public class cadastroAtendimento extends javax.swing.JFrame {
                 .addComponent(lblPagamento)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(boxFormaPagamento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 68, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnFinalizar2, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))

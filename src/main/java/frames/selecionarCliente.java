@@ -37,7 +37,7 @@ public class selecionarCliente extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("CLIENTE");
 
-        jPanel1.setBackground(new java.awt.Color(22, 31, 48));
+        jPanel1.setBackground(new java.awt.Color(240, 200, 175));
 
         tblClientes.setBackground(new java.awt.Color(255, 249, 239));
         tblClientes.setBorder(new javax.swing.border.MatteBorder(null));
@@ -62,20 +62,21 @@ public class selecionarCliente extends javax.swing.JFrame {
         tblClientes.setToolTipText("Agendamentos");
         tblClientes.setGridColor(new java.awt.Color(0, 0, 0));
         tblClientes.setName(""); // NOI18N
-        tblClientes.setSelectionBackground(new java.awt.Color(22, 31, 48));
-        tblClientes.setSelectionForeground(new java.awt.Color(51, 204, 0));
+        tblClientes.setSelectionBackground(new java.awt.Color(240, 200, 175));
+        tblClientes.setSelectionForeground(new java.awt.Color(204, 108, 12));
         tblClientes.setShowGrid(true);
         tblClientes.setShowVerticalLines(false);
         jScrollPane2.setViewportView(tblClientes);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(132, 198, 7));
+        jLabel1.setForeground(new java.awt.Color(204, 108, 12));
         jLabel1.setText("Selecione o cliente desejado");
 
-        btnSelecionar.setBackground(new java.awt.Color(40, 163, 0));
+        btnSelecionar.setBackground(new java.awt.Color(0, 140, 102));
         btnSelecionar.setFont(new java.awt.Font("Trebuchet MS", 1, 16)); // NOI18N
         btnSelecionar.setForeground(new java.awt.Color(255, 255, 255));
         btnSelecionar.setText("Selecionar");
+        btnSelecionar.setToolTipText("Selecionar cliente");
         btnSelecionar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSelecionar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

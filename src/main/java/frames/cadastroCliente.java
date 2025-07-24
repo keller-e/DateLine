@@ -14,6 +14,7 @@ public class cadastroCliente extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         lblNome = new javax.swing.JLabel();
         lblCPF = new javax.swing.JLabel();
@@ -53,111 +54,114 @@ public class cadastroCliente extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("CADASTRO DE CLIENTE");
 
-        jPanel1.setBackground(new java.awt.Color(22, 31, 48));
+        jPanel1.setBackground(new java.awt.Color(240, 200, 175));
         jPanel1.setForeground(new java.awt.Color(22, 31, 48));
+        jPanel1.setToolTipText("");
         jPanel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         lblNome.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblNome.setForeground(new java.awt.Color(0, 181, 181));
+        lblNome.setForeground(new java.awt.Color(90, 45, 20));
         lblNome.setText("Nome");
 
         lblCPF.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblCPF.setForeground(new java.awt.Color(0, 181, 181));
+        lblCPF.setForeground(new java.awt.Color(90, 45, 20));
         lblCPF.setText("CPF");
 
         lblDataNascimento.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblDataNascimento.setForeground(new java.awt.Color(0, 181, 181));
+        lblDataNascimento.setForeground(new java.awt.Color(90, 45, 20));
         lblDataNascimento.setText("Data de Nascimento");
 
         lblGenero.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblGenero.setForeground(new java.awt.Color(0, 181, 181));
+        lblGenero.setForeground(new java.awt.Color(90, 45, 20));
         lblGenero.setText("Gênero");
 
-        txtNome.setBackground(new java.awt.Color(236, 236, 236));
+        txtNome.setBackground(new java.awt.Color(255, 250, 240));
         txtNome.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtNome.setForeground(new java.awt.Color(0, 0, 0));
         txtNome.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         txtNome.setToolTipText("Digite o nome do cliente");
-        txtNome.setBorder(null);
+        txtNome.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtNome.setCaretColor(new java.awt.Color(0, 0, 0));
         txtNome.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        txtCPF.setBackground(new java.awt.Color(236, 236, 236));
+        txtCPF.setBackground(new java.awt.Color(255, 250, 240));
         txtCPF.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtCPF.setForeground(new java.awt.Color(0, 0, 0));
         txtCPF.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-        txtCPF.setToolTipText("Digite numero do seu CPF (XXX.XXX.XXX-XX)");
-        txtCPF.setBorder(null);
+        txtCPF.setToolTipText("Digite numero de CPF (XXX.XXX.XXX-XX)");
+        txtCPF.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtCPF.setCaretColor(new java.awt.Color(0, 0, 0));
         txtCPF.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        boxMasculino.setBackground(new java.awt.Color(22, 31, 48));
+        boxMasculino.setBackground(new java.awt.Color(240, 200, 175));
+        buttonGroup1.add(boxMasculino);
         boxMasculino.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
-        boxMasculino.setForeground(new java.awt.Color(0, 181, 181));
+        boxMasculino.setForeground(new java.awt.Color(90, 45, 20));
         boxMasculino.setText("Masculino");
 
-        boxFeminino.setBackground(new java.awt.Color(22, 31, 48));
+        boxFeminino.setBackground(new java.awt.Color(240, 200, 175));
+        buttonGroup1.add(boxFeminino);
         boxFeminino.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
-        boxFeminino.setForeground(new java.awt.Color(0, 181, 181));
+        boxFeminino.setForeground(new java.awt.Color(90, 45, 20));
         boxFeminino.setText("Feminino");
 
         lblTituloInfoCliente.setFont(new java.awt.Font("Dubai", 1, 32)); // NOI18N
-        lblTituloInfoCliente.setForeground(new java.awt.Color(132, 198, 7));
+        lblTituloInfoCliente.setForeground(new java.awt.Color(204, 108, 12));
         lblTituloInfoCliente.setText("Informações do cliente");
 
-        txtDataNascimento.setBackground(new java.awt.Color(236, 236, 236));
+        txtDataNascimento.setBackground(new java.awt.Color(255, 250, 240));
         txtDataNascimento.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtDataNascimento.setForeground(new java.awt.Color(0, 0, 0));
         txtDataNascimento.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         txtDataNascimento.setToolTipText("Digite a data de nascimento (dd/mm/aaaa)");
-        txtDataNascimento.setBorder(null);
+        txtDataNascimento.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtDataNascimento.setCaretColor(new java.awt.Color(0, 0, 0));
         txtDataNascimento.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         lblDataNascimento1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblDataNascimento1.setForeground(new java.awt.Color(0, 181, 181));
+        lblDataNascimento1.setForeground(new java.awt.Color(90, 45, 20));
         lblDataNascimento1.setText("Telefone");
 
-        txtTelefone.setBackground(new java.awt.Color(236, 236, 236));
+        txtTelefone.setBackground(new java.awt.Color(255, 250, 240));
         txtTelefone.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtTelefone.setForeground(new java.awt.Color(0, 0, 0));
         txtTelefone.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         txtTelefone.setToolTipText("Digite o telefone para contato | (DDD) 99999-9999");
-        txtTelefone.setBorder(null);
+        txtTelefone.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtTelefone.setCaretColor(new java.awt.Color(0, 0, 0));
         txtTelefone.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         lblDataNascimento2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblDataNascimento2.setForeground(new java.awt.Color(0, 181, 181));
+        lblDataNascimento2.setForeground(new java.awt.Color(90, 45, 20));
         lblDataNascimento2.setText("E-mail");
 
-        txtEmail.setBackground(new java.awt.Color(236, 236, 236));
+        txtEmail.setBackground(new java.awt.Color(255, 250, 240));
         txtEmail.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtEmail.setForeground(new java.awt.Color(0, 0, 0));
         txtEmail.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         txtEmail.setToolTipText("Informe um e-mail");
-        txtEmail.setBorder(null);
+        txtEmail.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtEmail.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmail.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         lblDataNascimento3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblDataNascimento3.setForeground(new java.awt.Color(0, 181, 181));
+        lblDataNascimento3.setForeground(new java.awt.Color(90, 45, 20));
         lblDataNascimento3.setText("Endereço");
 
-        txtEndereco.setBackground(new java.awt.Color(236, 236, 236));
+        txtEndereco.setBackground(new java.awt.Color(255, 250, 240));
         txtEndereco.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtEndereco.setForeground(new java.awt.Color(0, 0, 0));
         txtEndereco.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         txtEndereco.setToolTipText("Informe o endereço do cliente");
-        txtEndereco.setBorder(null);
+        txtEndereco.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtEndereco.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEndereco.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        btnCadastrarCliente.setBackground(new java.awt.Color(40, 163, 0));
+        btnCadastrarCliente.setBackground(new java.awt.Color(0, 140, 102));
         btnCadastrarCliente.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
         btnCadastrarCliente.setForeground(new java.awt.Color(255, 255, 255));
         btnCadastrarCliente.setText("Finalizar cadastro");
-        btnCadastrarCliente.setToolTipText("Finalizar cadastro do clliente");
+        btnCadastrarCliente.setToolTipText("Finalizar cadastro");
         btnCadastrarCliente.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCadastrarCliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -166,94 +170,94 @@ public class cadastroCliente extends javax.swing.JFrame {
         });
 
         lblAlergia.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblAlergia.setForeground(new java.awt.Color(0, 181, 181));
+        lblAlergia.setForeground(new java.awt.Color(90, 45, 20));
         lblAlergia.setText("Tem alergia a algum medicamento ou produto?");
 
-        txtCirurgia.setBackground(new java.awt.Color(236, 236, 236));
+        txtCirurgia.setBackground(new java.awt.Color(255, 250, 240));
         txtCirurgia.setColumns(20);
         txtCirurgia.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtCirurgia.setForeground(new java.awt.Color(0, 0, 0));
         txtCirurgia.setLineWrap(true);
         txtCirurgia.setRows(3);
-        txtCirurgia.setToolTipText("Infrome se o cliente ja fez alguma cirurgia");
+        txtCirurgia.setToolTipText("Informe se o cliente ja fez alguma cirurgia");
         txtCirurgia.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtCirurgia.setCaretColor(new java.awt.Color(0, 0, 0));
         txtCirurgia.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jScrollPane3.setViewportView(txtCirurgia);
 
         lblDoencaCronica.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblDoencaCronica.setForeground(new java.awt.Color(0, 181, 181));
+        lblDoencaCronica.setForeground(new java.awt.Color(90, 45, 20));
         lblDoencaCronica.setText("Possui alguma doença crônica? Se sim, qual?");
 
         lblUsoMedicamentos.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblUsoMedicamentos.setForeground(new java.awt.Color(0, 181, 181));
+        lblUsoMedicamentos.setForeground(new java.awt.Color(90, 45, 20));
         lblUsoMedicamentos.setText("Medicamento de uso contínuo? Se sim, qual?");
 
         lblAlergia1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblAlergia1.setForeground(new java.awt.Color(0, 181, 181));
+        lblAlergia1.setForeground(new java.awt.Color(90, 45, 20));
         lblAlergia1.setText("Realizou alguma cirurgia? Se sim, qual?");
 
-        txtdoencaCronica.setBackground(new java.awt.Color(236, 236, 236));
+        txtdoencaCronica.setBackground(new java.awt.Color(255, 250, 240));
         txtdoencaCronica.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtdoencaCronica.setForeground(new java.awt.Color(0, 0, 0));
         txtdoencaCronica.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-        txtdoencaCronica.setToolTipText("Infrome se o cliente possui alguma doença crônica");
+        txtdoencaCronica.setToolTipText("Informe se o cliente possui alguma doença crônica");
         txtdoencaCronica.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtdoencaCronica.setCaretColor(new java.awt.Color(0, 0, 0));
 
-        txtCondicaoDermatologica.setBackground(new java.awt.Color(236, 236, 236));
+        txtCondicaoDermatologica.setBackground(new java.awt.Color(255, 250, 240));
         txtCondicaoDermatologica.setColumns(20);
         txtCondicaoDermatologica.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtCondicaoDermatologica.setForeground(new java.awt.Color(0, 0, 0));
         txtCondicaoDermatologica.setLineWrap(true);
         txtCondicaoDermatologica.setRows(3);
-        txtCondicaoDermatologica.setToolTipText("Infrome se o cliente possui alguma condição dermatológica");
+        txtCondicaoDermatologica.setToolTipText("Informe se o cliente possui alguma condição dermatológica");
         txtCondicaoDermatologica.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtCondicaoDermatologica.setCaretColor(new java.awt.Color(0, 0, 0));
         txtCondicaoDermatologica.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jScrollPane4.setViewportView(txtCondicaoDermatologica);
 
         lblTituloInfoAlergia.setFont(new java.awt.Font("Dubai", 1, 32)); // NOI18N
-        lblTituloInfoAlergia.setForeground(new java.awt.Color(132, 198, 7));
+        lblTituloInfoAlergia.setForeground(new java.awt.Color(204, 108, 12));
         lblTituloInfoAlergia.setText("Informações de saúde");
 
         lblCondicaoDermatologica.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblCondicaoDermatologica.setForeground(new java.awt.Color(0, 181, 181));
+        lblCondicaoDermatologica.setForeground(new java.awt.Color(90, 45, 20));
         lblCondicaoDermatologica.setText("Possui alguma condição dermatológica?");
 
-        txtUsoMedicamentos.setBackground(new java.awt.Color(236, 236, 236));
+        txtUsoMedicamentos.setBackground(new java.awt.Color(255, 250, 240));
         txtUsoMedicamentos.setColumns(20);
         txtUsoMedicamentos.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtUsoMedicamentos.setForeground(new java.awt.Color(0, 0, 0));
         txtUsoMedicamentos.setLineWrap(true);
         txtUsoMedicamentos.setRows(3);
-        txtUsoMedicamentos.setToolTipText("Infrome se o cliente utiliza medicamentos e quais");
+        txtUsoMedicamentos.setToolTipText("Informe se o cliente utiliza medicamentos e quais");
         txtUsoMedicamentos.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtUsoMedicamentos.setCaretColor(new java.awt.Color(0, 0, 0));
         txtUsoMedicamentos.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jScrollPane1.setViewportView(txtUsoMedicamentos);
 
-        txtAlergia.setBackground(new java.awt.Color(236, 236, 236));
+        txtAlergia.setBackground(new java.awt.Color(255, 250, 240));
         txtAlergia.setColumns(20);
         txtAlergia.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         txtAlergia.setForeground(new java.awt.Color(0, 0, 0));
         txtAlergia.setLineWrap(true);
         txtAlergia.setRows(3);
-        txtAlergia.setToolTipText("Infrome se o cliente possui alguma alergia");
+        txtAlergia.setToolTipText("Informe se o cliente possui alguma alergia");
         txtAlergia.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         txtAlergia.setCaretColor(new java.awt.Color(0, 0, 0));
         txtAlergia.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jScrollPane2.setViewportView(txtAlergia);
 
-        jSeparator1.setBackground(new java.awt.Color(132, 198, 7));
-        jSeparator1.setForeground(new java.awt.Color(132, 198, 7));
+        jSeparator1.setBackground(new java.awt.Color(204, 108, 12));
+        jSeparator1.setForeground(new java.awt.Color(204, 108, 12));
         jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
-        btnCancelar.setBackground(new java.awt.Color(255, 0, 0));
+        btnCancelar.setBackground(new java.awt.Color(190, 30, 45));
         btnCancelar.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         btnCancelar.setForeground(new java.awt.Color(255, 255, 255));
         btnCancelar.setText("Cancelar");
-        btnCancelar.setToolTipText("Cancela o cadastro");
+        btnCancelar.setToolTipText("Cancela cadastro");
         btnCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -328,28 +332,7 @@ public class cadastroCliente extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(lblDoencaCronica)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(txtdoencaCronica, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(lblUsoMedicamentos)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(3, 3, 3)
-                                .addComponent(lblAlergia)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(11, 11, 11)
-                                .addComponent(lblAlergia1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(lblCondicaoDermatologica))
-                            .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 377, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(lblNome)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -382,7 +365,26 @@ public class cadastroCliente extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(lblDataNascimento3)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtEndereco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txtEndereco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(txtdoencaCronica, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(lblUsoMedicamentos)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(3, 3, 3)
+                        .addComponent(lblAlergia)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(11, 11, 11)
+                        .addComponent(lblAlergia1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(lblCondicaoDermatologica))
+                    .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 377, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnCadastrarCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -532,6 +534,7 @@ public class cadastroCliente extends javax.swing.JFrame {
     private javax.swing.JRadioButton boxMasculino;
     private javax.swing.JButton btnCadastrarCliente;
     private javax.swing.JButton btnCancelar;
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;

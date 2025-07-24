@@ -59,83 +59,83 @@ public class InformacoesCliente extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("CLIENTE");
 
-        jPanel1.setBackground(new java.awt.Color(22, 31, 48));
+        jPanel1.setBackground(new java.awt.Color(240, 200, 175));
 
         lblNomeCliente.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        lblNomeCliente.setForeground(new java.awt.Color(132, 198, 7));
+        lblNomeCliente.setForeground(new java.awt.Color(204, 108, 12));
         lblNomeCliente.setText("Nome Cliente");
 
         lblCPF.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblCPF.setForeground(new java.awt.Color(0, 181, 181));
+        lblCPF.setForeground(new java.awt.Color(90, 45, 20));
         lblCPF.setText("CPF:");
 
         lblDataNascimento.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblDataNascimento.setForeground(new java.awt.Color(0, 181, 181));
+        lblDataNascimento.setForeground(new java.awt.Color(90, 45, 20));
         lblDataNascimento.setText("Data de Nascimento:");
 
         lblTelefone.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblTelefone.setForeground(new java.awt.Color(0, 181, 181));
+        lblTelefone.setForeground(new java.awt.Color(90, 45, 20));
         lblTelefone.setText("Telefone:");
 
         lblEmail.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblEmail.setForeground(new java.awt.Color(0, 181, 181));
+        lblEmail.setForeground(new java.awt.Color(90, 45, 20));
         lblEmail.setText("E-mail:");
 
         lblEndereco.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblEndereco.setForeground(new java.awt.Color(0, 181, 181));
+        lblEndereco.setForeground(new java.awt.Color(90, 45, 20));
         lblEndereco.setText("Endereço:");
 
         lblCondicaoDermatologica.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblCondicaoDermatologica.setForeground(new java.awt.Color(0, 181, 181));
+        lblCondicaoDermatologica.setForeground(new java.awt.Color(90, 45, 20));
         lblCondicaoDermatologica.setText("Condição dermatológica:");
 
         lblCirurgia.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblCirurgia.setForeground(new java.awt.Color(0, 181, 181));
+        lblCirurgia.setForeground(new java.awt.Color(90, 45, 20));
         lblCirurgia.setText("Cirurgia:");
 
         lblAlergia.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblAlergia.setForeground(new java.awt.Color(0, 181, 181));
+        lblAlergia.setForeground(new java.awt.Color(90, 45, 20));
         lblAlergia.setText("Alergia a medicamento ou produto:");
 
         lblUsoMedicamentos.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblUsoMedicamentos.setForeground(new java.awt.Color(0, 181, 181));
+        lblUsoMedicamentos.setForeground(new java.awt.Color(90, 45, 20));
         lblUsoMedicamentos.setText("Medicamento de uso contínuo:");
 
         lblDoencaCronica.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblDoencaCronica.setForeground(new java.awt.Color(0, 181, 181));
+        lblDoencaCronica.setForeground(new java.awt.Color(90, 45, 20));
         lblDoencaCronica.setText("Doença crônica:");
 
         lblRespostaData.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblRespostaData.setForeground(new java.awt.Color(255, 255, 255));
+        lblRespostaData.setForeground(new java.awt.Color(153, 87, 50));
 
         lblRespostaCPF.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblRespostaCPF.setForeground(new java.awt.Color(255, 255, 255));
+        lblRespostaCPF.setForeground(new java.awt.Color(153, 87, 50));
 
         lblRespostaEmail.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblRespostaEmail.setForeground(new java.awt.Color(255, 255, 255));
+        lblRespostaEmail.setForeground(new java.awt.Color(153, 87, 50));
 
         lblRespostaTelefone.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblRespostaTelefone.setForeground(new java.awt.Color(255, 255, 255));
+        lblRespostaTelefone.setForeground(new java.awt.Color(153, 87, 50));
 
         lblRespostaEndereco.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblRespostaEndereco.setForeground(new java.awt.Color(255, 255, 255));
+        lblRespostaEndereco.setForeground(new java.awt.Color(153, 87, 50));
 
         lblRespostaMedicamento.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblRespostaMedicamento.setForeground(new java.awt.Color(255, 255, 255));
+        lblRespostaMedicamento.setForeground(new java.awt.Color(153, 87, 50));
 
         lblRespostaDoencaCronica.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblRespostaDoencaCronica.setForeground(new java.awt.Color(255, 255, 255));
+        lblRespostaDoencaCronica.setForeground(new java.awt.Color(153, 87, 50));
 
         lblRespostaCirurgia.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblRespostaCirurgia.setForeground(new java.awt.Color(255, 255, 255));
+        lblRespostaCirurgia.setForeground(new java.awt.Color(153, 87, 50));
 
         lblRespostaAlergia.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblRespostaAlergia.setForeground(new java.awt.Color(255, 255, 255));
+        lblRespostaAlergia.setForeground(new java.awt.Color(153, 87, 50));
 
         lblRespostaCondicaoDerma.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblRespostaCondicaoDerma.setForeground(new java.awt.Color(255, 255, 255));
+        lblRespostaCondicaoDerma.setForeground(new java.awt.Color(153, 87, 50));
 
-        jButton1.setBackground(new java.awt.Color(255, 153, 51));
+        jButton1.setBackground(new java.awt.Color(255, 153, 0));
         jButton1.setFont(new java.awt.Font("Segoe UI Black", 1, 16)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Voltar");
@@ -150,61 +150,65 @@ public class InformacoesCliente extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addGap(23, 23, 23))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(103, 103, 103)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblNomeCliente)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lblCondicaoDermatologica)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespostaCondicaoDerma))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lblCondicaoDermatologica)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblRespostaCondicaoDerma))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lblCirurgia)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblRespostaCirurgia))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lblDoencaCronica)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblRespostaDoencaCronica))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lblEndereco)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblRespostaEndereco))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lblCPF)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblRespostaCPF))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lblEmail)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblRespostaEmail))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lblTelefone)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblRespostaTelefone))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lblDataNascimento)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblRespostaData))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lblUsoMedicamentos)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblRespostaMedicamento))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lblAlergia)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblRespostaAlergia)))
+                        .addContainerGap(346, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lblCirurgia)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespostaCirurgia))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lblDoencaCronica)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespostaDoencaCronica))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lblEndereco)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespostaEndereco))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lblCPF)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespostaCPF))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lblEmail)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespostaEmail))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lblTelefone)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespostaTelefone))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lblDataNascimento)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespostaData))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lblUsoMedicamentos)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespostaMedicamento))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lblAlergia)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespostaAlergia)))
-                .addContainerGap(346, Short.MAX_VALUE))
+                        .addComponent(lblNomeCliente)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButton1)
+                        .addGap(71, 71, 71))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(33, 33, 33)
-                .addComponent(lblNomeCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblNomeCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1))
                 .addGap(34, 34, 34)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblCPF)
@@ -245,9 +249,7 @@ public class InformacoesCliente extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblCondicaoDermatologica)
                     .addComponent(lblRespostaCondicaoDerma))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton1)
-                .addContainerGap(16, Short.MAX_VALUE))
+                .addContainerGap(62, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
