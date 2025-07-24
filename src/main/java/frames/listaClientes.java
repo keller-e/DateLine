@@ -6,7 +6,7 @@ import java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-public class listaClientes extends javax.swing.JFrame {
+public class ListaClientes extends javax.swing.JFrame {
 
     public void preencheTabela(List<Cliente> cliente) {
 
@@ -27,7 +27,7 @@ public class listaClientes extends javax.swing.JFrame {
         tblClientes.setModel(model);
     }
 
-    public listaClientes() {
+    public ListaClientes() {
         initComponents();
         
         clienteDAO dao = new clienteDAO();
@@ -150,7 +150,7 @@ public class listaClientes extends javax.swing.JFrame {
 
             Cliente cliente = dao.listar().get(linhaSelecionada);
 
-            InformacoesCliente infoCliente = new InformacoesCliente(cliente);
+            DadosCliente infoCliente = new DadosCliente(cliente);
             infoCliente.setVisible(true);
         } else {
             JOptionPane.showMessageDialog(null, "Selecione ao menos um cliente", "", 2);
@@ -171,19 +171,20 @@ public class listaClientes extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(listaClientes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ListaClientes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(listaClientes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ListaClientes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(listaClientes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ListaClientes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(listaClientes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ListaClientes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new listaClientes().setVisible(true);
+                new ListaClientes().setVisible(true);
             }
         });
     }

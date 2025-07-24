@@ -5,11 +5,11 @@ import model.Cliente;
 import dao.atendimentoDAO;
 import javax.swing.JOptionPane;
 
-public class cadastroAtendimento extends javax.swing.JFrame {
+public class CadastroAtendimento extends javax.swing.JFrame {
 
     private Cliente clienteSelecionado;
 
-    public cadastroAtendimento() {
+    public CadastroAtendimento() {
         initComponents();
     }
 
@@ -228,7 +228,7 @@ public class cadastroAtendimento extends javax.swing.JFrame {
     }//GEN-LAST:event_btnFinalizar2ActionPerformed
 
     private void btnSelecionarClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSelecionarClienteActionPerformed
-        selecionarCliente selecionarCliente = new selecionarCliente(this);
+        SelecionarCliente selecionarCliente = new SelecionarCliente(this);
         selecionarCliente.setVisible(true);
     }//GEN-LAST:event_btnSelecionarClienteActionPerformed
 
@@ -250,19 +250,20 @@ public class cadastroAtendimento extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(cadastroAtendimento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CadastroAtendimento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(cadastroAtendimento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CadastroAtendimento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(cadastroAtendimento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CadastroAtendimento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(cadastroAtendimento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CadastroAtendimento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new cadastroAtendimento().setVisible(true);
+                new CadastroAtendimento().setVisible(true);
             }
         });
     }
@@ -278,7 +279,7 @@ public class cadastroAtendimento extends javax.swing.JFrame {
             atendimento.setProcedimento(boxProcedimento.getSelectedItem().toString());
             atendimento.setFormaPagamento(boxFormaPagamento.getSelectedItem().toString());
 
-            //cliente selecionado no JFRAME selecionarCliente
+            //cliente selecionado no JFRAME SelecionarCliente
             atendimento.setCliente(clienteSelecionado);
 
             atendimentoDAO dao = new atendimentoDAO();

@@ -1,12 +1,12 @@
 package projeto.integrador.datalinemaven;
 
-import frames.telaLogin;
+import frames.Login;
 
 public class DataLineMaven {
 
     public static void main(String[] args) {
         
-        telaLogin login = new telaLogin();
+        Login login = new Login();
         login.setVisible(true);
         
     }

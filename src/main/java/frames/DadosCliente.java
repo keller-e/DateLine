@@ -2,15 +2,15 @@ package frames;
 
 import model.Cliente;
 
-public class InformacoesCliente extends javax.swing.JFrame {
+public class DadosCliente extends javax.swing.JFrame {
 
     private Cliente clienteSelecionado;
 
-    public InformacoesCliente() {
+    public DadosCliente() {
         initComponents();
     }
 
-    public InformacoesCliente(Cliente cliente) {
+    public DadosCliente(Cliente cliente) {
         this.clienteSelecionado = cliente;
         initComponents(); // Primeiro monta a tela
 
@@ -285,20 +285,22 @@ public class InformacoesCliente extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(InformacoesCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(DadosCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(InformacoesCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(DadosCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(InformacoesCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(DadosCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(InformacoesCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(DadosCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new InformacoesCliente().setVisible(true);
+                new DadosCliente().setVisible(true);
             }
         });
     }

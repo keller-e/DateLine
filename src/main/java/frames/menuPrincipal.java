@@ -2,9 +2,9 @@ package frames;
 
 import javax.swing.JOptionPane;
 
-public class menuPrincipal extends javax.swing.JFrame {
+public class MenuPrincipal extends javax.swing.JFrame {
 
-    public menuPrincipal() {
+    public MenuPrincipal() {
         initComponents();
     }
 
@@ -158,17 +158,17 @@ public class menuPrincipal extends javax.swing.JFrame {
     private void btnSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSairActionPerformed
         dispose();
 
-        telaLogin telaLogin = new telaLogin();
+        Login telaLogin = new Login();
         telaLogin.setVisible(true);
     }//GEN-LAST:event_btnSairActionPerformed
 
     private void btnAgendamentosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgendamentosActionPerformed
-        listaAgendamentos lista = new listaAgendamentos();
+        ListaAtendimentos lista = new ListaAtendimentos();
         lista.setVisible(true);
     }//GEN-LAST:event_btnAgendamentosActionPerformed
 
     private void btnCadastrarNovoClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarNovoClienteActionPerformed
-        cadastroCliente infoCliente = new cadastroCliente();
+        CadastroCliente infoCliente = new CadastroCliente();
         infoCliente.setVisible(true);
 
         JOptionPane.showMessageDialog(null, "IMPORTANTE: O preenchimento correto dos dados a seguir é essencial."
@@ -177,13 +177,13 @@ public class menuPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnCadastrarNovoClienteActionPerformed
 
     private void btnCadastrarConsultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarConsultaActionPerformed
-        cadastroAtendimento cadastro = new cadastroAtendimento();
+        CadastroAtendimento cadastro = new CadastroAtendimento();
         cadastro.setVisible(true);
     }//GEN-LAST:event_btnCadastrarConsultaActionPerformed
 
     private void btnListaClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListaClienteActionPerformed
 
-        listaClientes lisCliente = new listaClientes();
+        ListaClientes lisCliente = new ListaClientes();
         lisCliente.setVisible(true);
     }//GEN-LAST:event_btnListaClienteActionPerformed
 
@@ -201,20 +201,22 @@ public class menuPrincipal extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(menuPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(menuPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(menuPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(menuPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new menuPrincipal().setVisible(true);
+                new MenuPrincipal().setVisible(true);
             }
         });
     }

@@ -5,7 +5,7 @@ import dao.atendimentoDAO;
 import java.util.List;
 import javax.swing.table.DefaultTableModel;
 
-public class listaAgendamentos extends javax.swing.JFrame {
+public class ListaAtendimentos extends javax.swing.JFrame {
 
     public void preencheTabela(List<Atendimento> atendimento) {
 
@@ -27,7 +27,7 @@ public class listaAgendamentos extends javax.swing.JFrame {
         tblAgendamentos.setModel(model);
     }
 
-    public listaAgendamentos() {
+    public ListaAtendimentos() {
         initComponents();
 
         atendimentoDAO dao = new atendimentoDAO();
@@ -137,19 +137,20 @@ public class listaAgendamentos extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(listaAgendamentos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ListaAtendimentos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(listaAgendamentos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ListaAtendimentos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(listaAgendamentos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ListaAtendimentos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(listaAgendamentos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ListaAtendimentos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new listaAgendamentos().setVisible(true);
+                new ListaAtendimentos().setVisible(true);
             }
         });
     }
